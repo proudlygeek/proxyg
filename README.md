@@ -13,7 +13,7 @@ Installation
 ------------
 
 ```bash
-    go get github.com/proudlygeek/proxyg
+go get github.com/proudlygeek/proxyg
 ```
 
 Make sure you've exported **GOPATH**/bin to your **PATH** env var.
