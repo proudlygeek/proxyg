@@ -7,13 +7,13 @@ Why?
 ----
 
 This is just a *simple* HTTP Proxy implementation mainly used to study *Go*, it has **no auth** and it's probably buggy: i don't recommend using it for *serious stuff*.
-I coded it using [another implementation] found on GitHub.
+I coded it using [another implementation][1] found on GitHub.
 
 Installation
 ------------
 
 ```bash
-    go install github.com/proudlygeek/proxyg
+    go get github.com/proudlygeek/proxyg
 ```
 
 Make sure you've exported **GOPATH**/bin to your **PATH** env var.
