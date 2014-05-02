@@ -90,12 +90,6 @@ func proxyConnect(localConn net.Conn, host string) {
 }
 
 func ConnectListen() {
-
-	/*if len(os.Args == 0) {
-	    fmt.Fprintf("Usage: proxyg -host=<> -")
-	    exit(1)
-	}*/
-
 	host := flag.String("host", "127.0.0.1", "HTTP Proxy Host")
 	port := flag.Int("port", 8080, "HTTP Proxy Port")
 	flag.Parse()
